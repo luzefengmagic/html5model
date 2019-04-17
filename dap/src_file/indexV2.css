@@ -1,0 +1,425 @@
+body {
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.footer {
+    background-color: #f05368;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.content-nav {
+    position: fixed;
+    top: 50%;
+    right: 16px;
+    z-index: 10;
+    margin-top: -65px;
+}
+
+.content-nav ul {
+    list-style: none;
+}
+
+.content-nav li {
+    width: 26px;
+    height: 26px;
+}
+
+.content-nav a {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.content-nav a img {
+    display: inline-block;
+}
+
+.bg {
+    width: 100%;
+    height: 816px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.bg.page-1 {
+    background-color: #f05368;
+    margin-top: 86px;
+}
+
+.bg.page-2 {
+    background-color: #5fc2bd;
+}
+
+.bg.page-3 {
+    background-color: #fbc02d;
+}
+
+.bg.page-4 {
+    background-color: #66bb6a;
+}
+
+.bg.page-5 {
+    background-color: #fff;
+}
+
+.bg.page-6 {
+    background-color: #f05368;
+}
+
+.content-wrap {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 86px;
+}
+
+.content {
+    width: 980px;
+    height: 816px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont-download {
+    position: absolute;
+    left: 59px;
+    top: 233px;
+}
+
+.cont-site-name {
+    width: 202px;
+    height: 64px;
+}
+
+.cont-site-desc {
+    margin-top: 21px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 48px;
+    color: #fff;
+}
+
+.cont-download-btn {
+    cursor: pointer;
+    margin-top: 61px;
+    width: 272px;
+    height: 82px;
+    border: 1px solid #fff;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    line-height: 82px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+}
+
+.cont-phone {
+    width: 276px;
+    height: 574px;
+    position: absolute;
+    right: 86px;
+    top: 145px;
+    background: url(phone3.png) no-repeat 0 0;
+}
+
+.cont-slider {
+    width: 237px;
+    height: 423px;
+    margin: 81px 0 0 22px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.cont-slider ul {
+    height: 423px;
+    list-style: none;
+    margin: 0px;
+}
+
+.cont-slider li {
+    float: left;
+    width: 237px;
+    height: 423px;
+}
+
+.cont-slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.cont-bag {
+    width: 520px;
+    height: 400px;
+    position: absolute;
+    left: 36px;
+    top: 140px;
+}
+
+.cont-bag3 {
+    width: 616px;
+    height: 400px;
+    position: absolute;
+    left: 376px;
+    top: 90px;
+}
+
+.cont-tower {
+    width: 453px;
+    height: 346px;
+    position: absolute;
+    left: 20px;
+    top: 248px;
+}
+
+.cont-wgmsm {
+    width: 457px;
+    height: 233px;
+    left: 20px;
+    top: 248px;
+}
+
+.cont-cloth {
+    width: 203px;
+    height: 142px;
+    position: absolute;
+    left: 270px;
+    top: 234px;
+}
+
+.cont-desc2 {
+    position: absolute;
+    right: -10px;
+    top: 294px;
+    width: 500px;
+}
+
+.cont-desc-text1 {
+    width: 100%;
+    font-size: 43px;
+    color: #fff;
+    font-weight: bold;
+    height: 43px;
+    line-height: 43px;
+    text-align: left;
+}
+
+.cont-desc-text2 {
+    width: 100%;
+    margin-top: 22px;
+    color: #fff;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.cont-desc3 {
+    position: absolute;
+    left: 22px;
+    top: 346px;
+    width: 552px;
+}
+
+.cont-note {
+    position: absolute;
+    right: 194px;
+    top: 275px;
+    width: 278px;
+    height: 331px;
+}
+
+.cont-camera {
+    width: 210px;
+    height: 193px;
+    position: absolute;
+    right: 20px;
+    top: 156px;
+}
+
+.cont-glass {
+    width: 192px;
+    height: 66px;
+    position: absolute;
+    right: 42px;
+    top: 398px;
+}
+
+.cont-house {
+    width: 520px;
+    height: 400px;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+}
+
+.cont-balloon {
+    width: 179px;
+    height: 151px;
+    position: absolute;
+    left: 232px;
+    top: 130px;
+}
+
+.cont-cloud {
+    width: 96px;
+    height: 57px;
+    position: absolute;
+    left: 380px;
+    top: 270px;
+}
+
+.cont-desc4 {
+    width: 465px;
+    position: absolute;
+    right: 16px;
+    top: 368px;
+}
+
+.content-download {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cont-download-title {
+    width: 100%;
+    height: 43px;
+    padding-top: 178px;
+    font-size: 43px;
+    color: #000;
+    text-align: center;
+    line-height: 43px;
+}
+
+.cont-download-list {
+    width: 100%;
+    margin-top: 87px;
+    height: 298px;
+}
+
+.cont-download-list a {
+    display: inline-block;
+    float: left;
+    border: 1px solid #a7a9ac;
+    width: 296px;
+    height: 296px;
+    position: relative;
+}
+
+.download-btn {
+    width: 110px;
+    height: 122px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -61px;
+    margin-left: -55px;
+    display: inline-block;
+}
+
+.download-btn span {
+    display: inline-block;
+    margin-top: 26px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    color: #a9a9ad;
+}
+
+.download-btn img {
+    display: inline-block;
+    height: 64px;
+}
+
+.download-btn.ios img {
+    width: 52px;
+    margin-left: 29px;
+}
+
+.download-btn.android img {
+    width: 56px;
+    margin-left: 27px;
+}
+
+.download-ele-ios {
+    margin-left: 3px;
+    margin-right: 40px;
+}
+
+.cont-download-link-qr {
+    margin-left: 40px;
+    margin-right: 3px;
+    cursor: default;
+}
+
+.cont-download-link-qr img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 138px;
+    height: 138px;
+    margin-left: -69px;
+    margin-top: -69px;
+}
+
+.content-dest-title {
+    width: 100%;
+    padding-top: 203px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.content-dest-list {
+    width: 100%;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.content-dest-list.first {
+    margin-top: 70px;
+}
+
+.content-dest-list a {
+    display: inline-block;
+    margin-left: 30px;
+    width: 120px;
+    height: 120px;
+}
+
+.content-dest-list a.first {
+    margin-left: 0px;
+}
+
+.cont-site-desc2 {
+    margin-top: 21px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 48px;
+}
+
+.cont-desc-text3 {
+    width: 100%;
+    font-size: 60px;
+    color: #443f43;
+    font-weight: bold;
+    height: 60px;
+    line-height: 43px;
+    text-align: left;
+}

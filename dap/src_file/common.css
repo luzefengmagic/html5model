@@ -1,0 +1,420 @@
+@charset "utf-8";
+body, div, hr, p, blockquote, ul, ol, li, table, th, td, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, input, button, select, textarea, fieldset, legend, ins, menu {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, label, select, option, textarea, button, fieldset, legend, ins, sup {
+    font: 14px/1.5 \5FAE\8F6F\96C5\9ED1, Verdana, Tahoma, Arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+a:visited {
+    background-color: none;
+}
+
+a:active {
+    background-color: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f82f08;
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    _position: relative;
+    font-family: "微软雅黑"
+}
+
+article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 86px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.header-wrap {
+    width: 980px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 97px;
+    height: 41px;
+    float: left;
+    margin: 23px 0 0 8px;
+}
+
+.header-logo a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.header-nav {
+    float: right;
+    margin-right: 8px;
+    height: 86px;
+    color: #000;
+}
+
+.header-nav a {
+    color: #000;
+    display: inline-block;
+    line-height: 86px;
+    font-size: 17px;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 297px;
+}
+
+.footer-nav {
+    text-align: center;
+    padding-top: 72px;
+    height: 24px;
+    color: #fff;
+    width: 100%;
+    font-size: 24px;
+}
+
+.footer-nav a {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 26px;
+    color: #fff;
+}
+
+.foot-vice-nav {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    height: 24px;
+}
+
+.foot-vice-nav a {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 13px;
+}
+
+.foot-copyright {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.foot-copyright div {
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.foot-copyright a {
+    color: #fff;
+}
+
+.foot-copyright a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #f05368;
+    position: fixed;
+    left: 0;
+    top: 86px;
+    z-index: 2;
+}
+
+.nav-cont {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-left {
+    height: 100%;
+    float: left;
+}
+
+.nav-right {
+    height: 100%;
+    float: right;
+}
+
+.nav-cont a {
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 0 7px;
+    vertical-align: middle;
+}
+
+.nav-cont a:hover {
+    text-decoration: none;
+    background-color: #de365a;
+    color: #fff;
+}
+
+.nav-cont a.active {
+    background-color: #de365a;
+}
+
+.nav-cont a span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.nav-cont a span img {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.login-dialog {
+    width: 571px;
+    height: 306px;
+    background: url(http://s1.xiaohongshu.com/static/img/v2/web/common/login/bg.png) no-repeat 0px 0px;
+    position: absolute;
+    z-index: 9999;
+    padding-top: 52px;
+}
+
+.login-dialog-close {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.login-dialog-close a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: url(http://s2.xiaohongshu.com/static/img/v2/web/common/login/close.png) no-repeat 0 0;
+}
+
+.login-dialog-logo {
+    width: 121px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.login-dialog-logo a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: url(http://s3.xiaohongshu.com/static/img/v2/web/common/logo.png) no-repeat 0 0;
+}
+
+.login-dialog-desc {
+    width: 250px;
+    height: 20px;
+    margin: 88px auto 0 auto;
+}
+
+.login-dialog-line {
+    width: 73px;
+    height: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    float: left;
+    _display: inline-block;
+}
+
+.login-dialog-text {
+    width: 104px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #6d6d6f;
+    font-family: "微软雅黑";
+    _display: inline-block;
+    float: left;
+}
+
+.login-dialog-btn {
+    width: 143px;
+    height: 55px;
+    margin: 26px auto 0 auto;
+}
+
+.login-dialog-btn a {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    float: left;
+}
+
+.login-dialog-weibo {
+    background: url(http://s4.xiaohongshu.com/static/img/v2/web/common/login/weibo.png) no-repeat 0 0;
+}
+
+.login-dialog-qq {
+    background: url(http://s3.xiaohongshu.com/static/img/v2/web/common/login/qq.png) no-repeat 0 0;
+    margin-left: 33px;
+}
+
+.loading-more {
+    width: 980px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading-line {
+    width: 461px;
+    height: 15px;
+    border-top: 1px solid #939598;
+    float: left;
+    margin-top: 15px;
+    _display: inline-block;
+}
+
+.loading-img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 14px;
+    _display: inline-block;
+}
+
+.loading-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.mgp-dialog {
+    width: 570px;
+    background-color: #fff;
+    padding: 78px 0 64px 0;
+}
+
+.mgp-dialog-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 28px;
+    height: 28px;
+}
+
+.mgp-dialog-close a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: url(http://s2.xiaohongshu.com/static/img/v2/web/common/login/close.png) no-repeat 0 0;
+}
+
+.mgp-dialog-title {
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #60c3be;
+}
+
+.mgp-dialog-content {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.mgp-dialog-text {
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #6d6e71;
+    text-align: center;
+}
+
+.mgp-dialog-footer {
+    margin-top: 82px;
+    height: 14px;
+    text-align: center;
+}
+
+.mgp-dialog-footer a {
+    width: 56px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+
+.mgp-dialog-footer a:hover {
+    text-decoration: none;
+}
+
+.mgp-dialog-submit {
+    background-color: #f05368;
+}
+
+.mgp-dialog-cancel {
+    background-color: #5cc4bd;
+    margin-right: 18px;
+}
